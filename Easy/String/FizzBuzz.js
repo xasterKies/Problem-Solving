@@ -1,7 +1,8 @@
-// Author: Samuel Tiokeng
-// Title: Convert Roman Integer to Number
-// Problem Description: https://leetcode.com/problems/fizz-buzz/
-// Date: 2nd January 2022
+/* Author: Samuel Tiokeng
+ * Title: FizzBuzz
+ * Description: https://leetcode.com/problems/fizz-buzz/
+ * Date: 2nd January 2022
+ */
 
 var FizzBuzz = function(s){
      var result
