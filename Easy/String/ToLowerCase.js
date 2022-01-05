@@ -1,7 +1,7 @@
 // Author: Samuel Tiokeng
 // Title: Convert to lowercase without the .toLowerCase
 // Problem Description: https://leetcode.com/problems/to-lower-case/
-// Date: 1st January 2022
+// Date: 4th January 2022
 
 var toLowerCase = function (str) {
   return str
