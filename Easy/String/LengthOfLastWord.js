@@ -12,3 +12,21 @@ function lengthOfLastWord(s) {
 }
 
 console.log(lengthOfLastWord("Hello Word"))
+
+// Find difference
+const findTheDifference = (s, t) => {
+  // split the two incoming strings and sort them 
+  let sSplit = s.split('').sort()
+  let tSplit = t.split('').sort()
+  
+  // create loop to iterate through input strings
+  for( let i = 0; i < tSplit.length; i++){
+    
+    // compare values array values
+    if( sSplit[i] !== tSplit[i]){
+
+      //return non matching chars
+      return tSplit[i];
+    }
+  } 
+   
